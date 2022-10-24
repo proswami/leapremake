@@ -22,6 +22,7 @@ int main(){
         cout << "Common year" << endl;
     } else {
         cout << "Leap year" << endl;
+        cout << "Leap year" << endl;
     }
 }
 
