@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>There are form controls</h1>
+    <input type = "text">
+    <button type = "submit">Submit</button>
+
+    <h2>Forms group together form controls and sends the data somewhere</h2>
+    <h3>when the submit button is presses the page will refresh indicating a request has been made</h3>
+    <form>
+        <input type ="text">
+        <button>Submit</button>
+    </form>
+
+    <h3> we give our input fields a name to label the data that's being sent and a placeholder to tell the user what to input</h3>
+    <form action="">
+        <input type = "text" name="firstname" placeholder = "firstname">
+        <input type = "text" name = "lastname" placeholder = "lastname">
+        <button>Submit</button>
+    
+        <h3> we can also add actual labels to our inputs. no drastic difference but its good practice</h3>
+
+        <label for="firstname">First Name</label>
+        <input type = "text" name="firstname" placeholder = "firstname" id = "firstname">
+
+
+        <label for ="lastname"> Last Name</label>
+        <input type = "text" name = "lastname" placeholder = "lastname" id = "lastname">
+
+        <button>Submit</button>
+
+    </form>
+
+
+    <h2>inputs are extremely versatile. there are many different types</h2>
+    <form>
+    <label for = "password">password</label>
+    <input type = "password" name="pasword" placeholder="passwordHidesCharacter" id="password" required>
+    <button>Submit</button>
+
+    <label for = "pin"> pin </label>
+    <input type = "number" name="pin code" placeholder="onlyTakesNumbers" id="pin">
+
+    <label for = "range">range</label>
+    <input type = "range" name = "range" placeholder="slider" id="range">
+    </form>
+
+
+    <h1>More examples of Form Controls</h1>
+    <form action ="">
+        <h2>Text Areas: to create multi-line text input</h2>
+        <textarea rows="10" cols = "10"> this is the starter text in a text area</textarea>
+
+        <h2> creates a dropdown menu</h2>
+        <label for="size">select your size</label>
+        <select name="size" id="size">
+            <option value = "s">Small</option>
+            <option value = "m">Mid</option>
+            <option value = "l">Large</option>
+        </select>
+        <button>submit</button>
+    </form>
+
+</body>
+</html>
