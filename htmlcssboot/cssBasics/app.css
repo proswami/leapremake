@@ -1,0 +1,32 @@
+p{
+    color:magenta;
+    /*background-color: olivedrab;*/
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2.5;
+}
+
+a{
+    color:blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+li{
+    background-color: grey; /*this is a named color*/
+    color: #011119 /*this is rgb*/
+}
+
+body{
+    background-color:rgb(50, 25, 25);
+}
+h1{
+    background-color: rgba(153, 21, 183,0.8); /*rgba, the a stands for alpha. determines opacity*/
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: lighter;
+}
+
+h2{
+    /*background-color: rgba(255, 149, 0, 0.411); /*the a here only determines the opacity of the color*/
+    opacity: 1.0; /*determines the opacity of the entire element, color and text*/
+}
